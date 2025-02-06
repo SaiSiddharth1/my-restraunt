@@ -1,0 +1,62 @@
+@media (max-width: 940px) {
+
+
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #navbar ul {
+        flex-direction: row;
+        padding: 0;
+    }
+
+    #navbar ul li {
+        margin: 10px 0;
+    }
+
+    #navbar::before {
+        height: 38.35%;
+    }
+
+    /* Home Section */
+    #home {
+        padding: 20px;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+
+    #home .btn {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    #home::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        height: 105%;
+
+    }
+
+    /* Services Section */
+    #services {
+        flex-direction: column;
+    }
+
+    /* Footer */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer div {
+        margin: 10px 0;
+    }
+}
